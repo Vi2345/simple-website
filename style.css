@@ -1,0 +1,114 @@
+*{
+    margin:0%;
+    padding: 0%;
+    box-sizing: border-box;
+    list-style: none;
+}
+
+a{
+    text-decoration:none;
+    color: black;
+}
+
+body{
+    background: url('./image/photo.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    font-family:sans-serif;
+
+}
+
+header{
+    display: flex;
+    height:13vh;
+    width:100%;
+    background-color:blue
+}
+
+.logo img{
+    height: 85px;
+    margin-left: 50px;
+}
+
+.nav-links{
+    margin-left:750px;
+}
+
+.nav-links li{
+    display: inline-flex;
+    margin-top: 35px;
+    justify-content: space-evenly;
+    width:110px;
+    font-style: italic;
+    font-size:18px;
+}
+
+.button{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 15px;
+    padding-right: 15px;
+    background-color: white;
+    border-radius: 5px;
+    border-right: auto;
+}
+
+.menu{
+     padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 15px;
+    padding-right: 15px;
+    background-color: white;
+    border-radius: 5px;
+    border-right: auto;
+}
+
+.submenu{ 
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 15px;
+    padding-right: 15px;
+    background-color: white;
+    border-radius: 5px;
+    border-right: auto;
+
+
+}
+
+.border{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    background-color: white;
+    border-radius: 5px;
+    border-right:  auto;
+
+}
+
+.main{
+    height: 75vh;
+    text-align: center;
+    align-items: center;
+
+}
+
+footer{
+    display: flex;
+    height: 13vh;
+    width:100%;
+    background-color:blue;
+    justify-content: center;
+    font-family: sans-serif;
+    color: white;
+    position: absolute;
+
+}
+small{
+    margin-top: 30px;
+    font-size: 16px;
+}
+
+
+
+
